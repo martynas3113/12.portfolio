@@ -1,0 +1,30 @@
+.bar {
+    margin-top: 30px;
+}
+.skills .bar > label {
+    font-size: 20px;
+}
+
+    .skills .bar-dark {
+        height: 13px;
+        width: 100%;
+        background-color: violet;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        
+    }
+
+
+
+    .skills  .bar-dark > .bar-light {
+        height: 13px;
+        width: 80%;
+        background-color: blue;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        font-size: 14px;
+        
+        
+    }
