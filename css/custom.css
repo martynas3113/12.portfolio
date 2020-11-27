@@ -1,9 +1,33 @@
-.body {
-	padding-top: 20px;
-}
 
 .hero {
+
 	background-image: url(../img/markus-spiske-GDP_CXFHiuI-unsplash.jpg);
 	background-size: cover;
 	background-position: top;
+	background-attachment: fixed;
+	cursor: default;
+	background-position: center top;
 }
+
+	.main {
+		background-color: #33292a;
+		color: white;
+	}
+@font-face {
+	font-family: inconsolata;
+	src: url(../Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+.center-block  span {
+		color: #BD2055;
+		font-weight: 600;
+	}
+.center-block > p > span:hover {
+		color: #EDA052;
+		transition: all 0.5s;
+	}
+
+.right > .cards > div:hover {
+	background-color:#BD2055;
+	transition: 0.5s;
+	}
