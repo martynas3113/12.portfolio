@@ -19,6 +19,13 @@
 		color: white;
 }
 
+.tech::before {
+	content: "Technical skills";
+	margin-bottom:40px ;
+    color: white;
+	font-size: 27px;;
+	
+}
 
 
 .center-block  span {

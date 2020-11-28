@@ -1,4 +1,4 @@
-const personalData = [
+const personalDataTech = [
     {
         data: '1990-10-10'
     },
@@ -17,4 +17,4 @@ const personalData = [
 
 ]
 
-export { personalData }
+export { personalDataTech }

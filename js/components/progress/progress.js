@@ -24,7 +24,8 @@ function progress (selector,data) {
         if(objectValidation(item)) {
             continue;
         }
-        HTML += `<div class="bar">
+        HTML += `
+                    <div class="bar">
                     <label for="${item.labelfor}">${item.name}</label>
                     <label class="percent">${item.percentage}</label>
                     <div class="bar-dark">
