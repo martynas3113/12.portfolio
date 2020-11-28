@@ -178,7 +178,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 150px 620px;
-        background-color: #33292a;
+        background-color: #111111;
         color: white;
     }
 

@@ -6,16 +6,19 @@
 
 .hero {
 
-	background-image: url(../img/markus-spiske-GDP_CXFHiuI-unsplash.jpg);
+	background-image: url(../img/42455-coding-wallpaper-1920x1080-15870630209758.jpg);
 	background-size: cover;
-	background-position: top;
-	background-attachment: fixed;
+	/* background-position-y: -250px; */
+	/* background-attachment: fixed; */
 	cursor: default;
-	background-position: center top;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: left;
+	
 }
 
 .main {
-		background-color: #2C2425;
+		background-color: #141414;
 		color: white;
 }
 
@@ -52,3 +55,4 @@
 .percent {
 	float: right;
 }
+
