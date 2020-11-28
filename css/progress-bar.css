@@ -6,9 +6,9 @@
 }
 
     .skills .bar-dark {
-        height: 13px;
+        height: 10px;
         width: 100%;
-        background-color: violet;
+        background-color: black;
         margin-top: 10px;
         margin-bottom: 20px;
         border-radius: 15px;
@@ -18,9 +18,9 @@
 
 
     .skills  .bar-dark > .bar-light {
-        height: 13px;
+        height: 10px;
         width: 80%;
-        background-color: blue;
+        background-color: #EDA052;
         border-radius: 15px;
         text-align: center;
         color: white;

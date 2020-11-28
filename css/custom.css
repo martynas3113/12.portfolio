@@ -1,4 +1,9 @@
 
+@font-face {
+	font-family: inconsolata;
+	src: url(../Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
 .hero {
 
 	background-image: url(../img/markus-spiske-GDP_CXFHiuI-unsplash.jpg);
@@ -9,14 +14,12 @@
 	background-position: center top;
 }
 
-	.main {
-		background-color: #33292a;
+.main {
+		background-color: #2C2425;
 		color: white;
-	}
-@font-face {
-	font-family: inconsolata;
-	src: url(../Inconsolata-VariableFont_wdth\,wght.ttf);
 }
+
+
 
 .center-block  span {
 		color: #BD2055;
@@ -31,3 +34,14 @@
 	background-color:#BD2055;
 	transition: 0.5s;
 	}
+
+.bar  p {
+	display: inline-block;
+	font-size: 20px;
+	/* width: 100%; */
+	place-self: end;
+}
+
+.percent {
+	float: right;
+}
