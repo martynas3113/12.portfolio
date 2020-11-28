@@ -1,0 +1,161 @@
+@media (min-width: 800px) and (max-width:1000px) {
+    .skills {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        height: 100vh;
+    }
+
+    .skills > .tech {
+        padding: 0px;
+    }
+
+    .skills > .prof {
+        padding: 0px 60px;
+    }
+    .skills > h3 {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width:460px) and (max-width:800px) {
+    
+    .container {
+        width:100vw
+    }
+    
+    .main {
+        display: block;
+        height: 100vh;
+    }
+
+        .main > .right {
+            margin-top: 40px;
+        }
+
+            .main > .left > .inforight {
+                justify-self: start;
+                margin-left: 30px;
+            }
+
+            .main > .left > .infoleft {
+                margin-right: 30px;
+            }
+
+            .main > .right > .cards {
+                grid-column-gap: 40px;
+            }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        height: 100vh;
+        }
+    
+        .skills > .tech {
+            padding: 0px;
+        }
+    
+        .skills > .prof {
+            padding: 0px 60px;
+        }
+        .skills > h3 {
+            margin-top: 40px;
+        }
+    .about {
+        display: none;
+    }
+
+}
+
+@media (max-width:460px) {
+    .container {
+        width:100vw
+    }
+
+    .icon-bar {
+        display: none;
+    }
+
+    .hero {
+        min-height: 100vh;
+    }
+    .center-block  {
+        justify-self: start;
+        padding: 0px;
+    }
+    .main {
+        display: block;
+        min-height: 100vh;
+        padding: 0px;
+    }
+
+        .main > .left {
+            margin: 0px;
+        }
+
+        .main > .right {
+            margin-top: 40px;
+        }
+
+            .main > .left > .inforight {
+                justify-self: start;
+                margin-left: 30px;
+                font-size: 15px;
+            }
+
+            .main > .left > .infoleft {
+                margin-right: 30px;
+                font-size: 19px;
+            }
+
+            .main > .right > .cards {
+                grid-column-gap: 40px;
+                grid-column-gap: 15px;
+            }
+
+            .right > .cards > div {
+                 height: 70px;
+                 
+            }
+                .right > .cards > div > p {
+                    justify-self: ;
+                    color: white;
+                    /* margin-top: 10px; */
+                    font-size: 13px;
+                }
+
+                .right > .cards > div .fa {
+                    width: 100%;
+                    font-size: 20px;
+                    color: white;
+                    place-self: top;
+                }
+
+
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        min-height: 900px;
+        }
+    
+        .skills > .tech {
+            padding: 0px;
+        }
+    
+        .skills > .prof {
+            padding: 0px 60px;
+        }
+        .skills > h3 {
+            margin-top: 40px;
+        }
+    .about {
+        display: none;
+    }
+
+
+}
+
