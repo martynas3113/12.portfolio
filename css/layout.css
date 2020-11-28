@@ -141,7 +141,7 @@
                 margin-top: 40px;
             }
 
-                .left > .inforight >span {
+                .left > .inforight > li:last-of-type {
                     color: #EDA052;
                     font-weight: 600;
                 }
