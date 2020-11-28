@@ -7,6 +7,6 @@ Portfolio-type project. Pull requests are welcome!
 
 ## Project features
 - responsive design
--javascript generated html content
--javascript content validation
--grid combined with flex
+- javascript generated html content
+- javascript content validation
+- grid combined with flex
