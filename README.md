@@ -3,10 +3,12 @@
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)<br>
 
-Portfolio-type project. Pull requests are welcome!
+Practice to build page (HTML and CSS only)
 
 ## Project features
 - responsive design
 - javascript generated html content
 - javascript content validation
 - grid combined with flex
+
+You can take a look here: https://martynas3113.github.io/12.portfolio/
